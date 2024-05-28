@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "inter-bold";
+    src: url("./assets/fonts/static/Inter-Bold.ttf");
+  }
+  @font-face {
+    font-family: "inter";
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+  }
+  @font-face {
+    font-family: "inter-semibold";
+    src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  a:hover {
+    background-color: hsl(7, 90%, 50%);
+    color: hsl(0, 0%, 6%);
+  }
+  .name {
+    font-family: "inter-bold";
+  }
+  .place {
+    margin-top: -9px;
+    font-size: 16px;
+    font-family: "inter-semibold";
+    color: hsl(80, 90%, 57%);
+  }
+  .speciality {
+    font-family: "italic";
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+  
+  #container img {
+    margin-bottom: 5px;
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+  }
+  #container {
+    padding: 30px;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 11%);
+    text-align: center;
+  }
+  a {
+    display: block;
+    background-color: hsl(0, 0%, 21%);
+    color: hsl(100, 100%, 100%);
+    padding: 15px 80px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: "inter";
+    margin-top: 15px;
+    font-size: 15px;
+  }
+   max-width: 600px {
+ }
+a {
+      padding: 15px 90px;
+    }
